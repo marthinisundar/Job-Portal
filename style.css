@@ -1,0 +1,165 @@
+.openings{
+    text-decoration: none;
+    border:1px solid #c6deea;
+    color:black;
+    background-color: grey;
+    padding:8px 16px;
+    border-radius:8px;
+    text-align: center;
+    margin-left:2%;
+    margin-top:45px;
+    transition:all 400ms ease;
+}
+  .protest-riot-regular {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: x-large;
+   
+  }
+  .bg-image{
+    background-image: url('business-businessman-communication-concept.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+   background-size: 90% 90%;
+    
+  }
+ 
+
+  #img{
+    height:"500px" ;width:"500px" ;
+    justify-content: center;
+  }
+ 
+  h2{
+    font-size:large;
+    font-size: x-large;
+  }
+
+.images{
+    margin-top: 50%;
+        display: block; /* Make the image a block element */
+        margin: auto; /* Center horizontally */
+    
+}
+
+.job-list{
+    max-width: 900px;
+    margin:20px auto;
+    font-family: "Rubik",sans-serif;
+}
+.job-list h2{
+    border-left:4px solid #023047;
+    font-size: 30px;
+    padding-left:20px
+
+}
+.job-list .jobs{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+gap:24px
+}
+.job-list .job{
+    box-shadow:0 4px 24px -8px rgba(2,48,71,0.2);
+    padding:24px;
+    border-radius: 16px;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    transition:all 400ms ease;
+
+}
+.job-list .job:hover{
+    transform:scale(1.03)
+}
+
+.nav_bar{
+    margin-top: -50px;
+    margin-left:35%;
+    
+   
+}
+.job-list .job-title{
+font-size:20px;
+padding:10px 0;
+margin:0;
+color:#023047
+}
+.job-list .details{
+    margin-top: 6px;
+    font-size:14px;
+    color:#333;
+    line-height:1.8;
+    flex:1
+}
+.job-list .apply-button{
+    text-decoration: none;
+    border:1px solid #023047;
+    color:black;font-size:larger;justify-content: center;align-items: center;display:flex;
+    padding:8px 16px;
+    color:black;
+    background-color:#023047;
+
+    border-radius:8px;
+    text-align: center;
+    margin-top:20px;
+    transition:all 400ms ease;
+    font-weight:bold;text-decoration: none  ;
+}
+.job-list .apply-button:hover{
+    background:#023047;
+    color:white;
+    font-size:bold;
+}
+
+@media (max-width:940px){
+    .job-list .jobs{
+        
+        grid-template-columns: 1fr 1fr ;
+        max-width: 400px;
+        margin:0 auto
+    }
+}
+
+.footer {
+ 
+        text-align: center;
+        padding: 3px;
+        background-color: grey;
+        font-size: larger;
+        color: white;
+      
+  } 
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    /* border-radius: 50%; */
+
+  }
+  #media a
+  {
+    display: inline-block;
+    margin-right:10px
+  }
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+#nav:hover{
+    border:5px solid rgb(237, 28, 28);
+    background-color:rgb(237, 28, 28);
+    color:rgb(237, 28, 28)
+ 
+}
+#nav{
+    transition:all 400ms ease;
+}
